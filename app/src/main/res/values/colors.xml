@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="smssdk_green">#08979C</color>
+    <color name="smssdk_white_line">#14ffffff</color>
+    <color name="smssdk_hint_textcolor">#7fffffff</color>
+    <color name="smssdk_text_green">#099A9F</color>
+
+    <color name="ind_red">#B30E17</color>
+    <color name="blue_light">#00C0E4</color>
+    <color name="material_orange">#ffEF6C00</color>
+
+    <color name="green">#18C289</color>
+    <color name="gray">#999999</color>
+
+    <color name="white">#ffffff</color>
+    <color name="blue">#44B2FE</color>
+    <color name="black">#000000</color>
+    <color name="file_picker_title">#4A4A4A</color>
+    <color name="file_picker_des">#86848B</color>
+    <color name="file_bottom_line">#ECECEC</color>
+</resources>

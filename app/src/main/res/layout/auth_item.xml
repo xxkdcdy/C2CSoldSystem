@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:id="@+id/auth_pic"
+        android:layout_gravity="center"></androidx.appcompat.widget.AppCompatImageView>
+
+    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+    android:id="@+id/auth_button_upload"
+    android:layout_width="120dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="0dp"
+    android:text="上传图片"
+    app:qmui_isRadiusAdjustBounds="true"></com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton>
+
+    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+        android:id="@+id/auth_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:text="验证信息"
+        app:qmui_isRadiusAdjustBounds="true"></com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton>
+
+</LinearLayout>

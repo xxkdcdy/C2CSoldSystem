@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="?attr/qmui_topbar_height"
+    android:background="@color/qmui_config_color_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.qmuiteam.qmui.widget.QMUIRadiusImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/headImgView"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_gravity="center"
+            app:qmui_border_color="#0000FF"
+            app:qmui_border_width="5dp"
+            app:qmui_corner_radius="20dp"/>
+
+        <com.qmuiteam.qmui.widget.grouplist.QMUIGroupListView
+            android:id="@+id/groupListViewPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

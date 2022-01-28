@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient">
+
+    <!-- 放置一些信息 -->
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical">
+
+        <!-- 取件码的布局 -->
+        <TextView
+            android:id="@+id/good_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="连衣裙女夏季" />
+
+        <!-- 收货地址的布局 -->
+        <TextView
+            android:id="@+id/good_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="镇江市学府路301号江苏大学C6" />
+
+        <!-- 包裹重量的布局 -->
+        <TextView
+            android:id="@+id/good_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="小于1kg" />
+
+        <!-- 配送费的布局 -->
+        <TextView
+            android:id="@+id/good_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1元" />
+
+        <!-- 预期时间的布局 -->
+        <TextView
+            android:id="@+id/good_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2021年6月30日18:01" />
+
+        <!-- 订单状态的布局 -->
+        <TextView
+            android:id="@+id/good_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="未抢单" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <!-- 进度按钮 -->
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/good_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:text="详细信息"
+            app:qmui_isRadiusAdjustBounds="true"></com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton>
+
+        <!-- 操作按钮 -->
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/control_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:text="订单操作"
+            app:qmui_isRadiusAdjustBounds="true"></com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton>
+    </LinearLayout>
+
+
+</LinearLayout>
